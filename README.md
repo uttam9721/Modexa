@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://myportfolio-e6x01e4qd-uttam-kumars-projects-ad18524c.vercel.app/](https://myportfolio-e6x01e4qd-uttam-kumars-projects-ad18524c.vercel.app/)
 
-- 📫 How to reach me **uttammaurya@gmail.com**
+- 📫 How to reach me **uttammaurya377@gmail.com**
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1PX85J2p6xDTy48JVCyQFY4BZe6eJUN7e/view?usp=drivesdk](https://drive.google.com/file/d/1PX85J2p6xDTy48JVCyQFY4BZe6eJUN7e/view?usp=drivesdk)
 
