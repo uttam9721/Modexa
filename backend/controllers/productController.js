@@ -1,7 +1,7 @@
 import {v2 as cloudinary} from 'cloudinary'
 import productModel from '../models/productModel.js';
 export const addProduct=async(req,res)=>{
-    const {name,description,image,price,category,subCategory,bestseller,sizes}=req.body;
+    const {name,description,price,category,subCategory,bestseller,sizes}=req.body;
     try {
         const image1=req.files.image1 && req.files.image1[0]
         const image2=req.files.image2 && req.files.image2[0]
@@ -26,18 +26,56 @@ export const addProduct=async(req,res)=>{
             price:Number(price),
             subCategory,
             bestseller:bestseller==="true"?true:false,
-            sizes:JSON.parse(sizes),
+            sizes:JSON.parse(sizes),  //it convert string to array
             image:imagesUrl,
             date:Date.now()
         }
-        console.log(productData)
+        // console.log(productData)
         const product = new productModel(productData);
+         await product.save();
 
-        // console.log(imagesUrl);
         res.json({success:true,message:"Product Added",product})
     } catch (error) {
         console.log(error)
         res.json({success:false,message:error.message})
+    }   
+}
+
+
+
+// function getProducts
+export const getProducts = async(req,res)=>{
+    try {
+        const products = await productModel.find({});
+        res.json({success:true,products});
+    } catch (error) {
+        res.json({success:false,message:error.message});
+        
     }
+}
+
+// function getProducts
+export const deleteProducts = async(req,res)=>{
+    try {
+        const id = req.params.id;
+        const products = await productModel.findByIdAndDelete(id);
+        if(!products) return res.json({message:"invalid id"})
+        res.json({success:true,message:"product has been deleted",products});
+    } catch (error) {
+        // res.json({success:false,message:"invalid id"});
+        
+    }
+}
+
+// getProductById
+export const getProductById = async(req,res)=>{
+   try {
+     const id = req.params.id;
+    const product = await productModel.findById(id);
     
+    res.json({success:true,product})
+   } catch (error) {
+    res.json({success:false,message:"invalid id"})
+    
+   }
 }
