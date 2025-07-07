@@ -1,28 +1,123 @@
-<h1 align="center">Hi 👋, I'm Uttam Kumar</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+# 👗 Modexa - Clothing E-commerce Website
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=uttam9721&label=Profile%20views&color=0e75b6&style=flat" alt="uttam9721" /> </p>
+Modexa is a modern and responsive full-stack e-commerce platform focused on selling clothes online. Built using **React** on the frontend and **Node.js (Express)** on the backend, Modexa offers a smooth shopping experience with core e-commerce features.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=uttam9721" alt="uttam9721" /></a> </p>
+---
 
-- 🔭 I’m currently working on [Food Delivery App](https://frontend-job-six.vercel.app/)
+## 🚀 Tech Stack
 
-- 🌱 I’m currently learning **html,css,bootstrap,tailwind css,javaScript,reactjs,nodejs,expressjs,mongodb,sql,docker,java**
+### 🔹 Frontend
+- React
+- React Router
+- Axios
+- Tailwind CSS / CSS Modules / Bootstrap (depending on what you use)
 
-- 👨‍💻 All of my projects are available at [https://myportfolio-e6x01e4qd-uttam-kumars-projects-ad18524c.vercel.app/](https://myportfolio-e6x01e4qd-uttam-kumars-projects-ad18524c.vercel.app/)
+### 🔹 Backend
+- Node.js
+- Express.js
+- MongoDB (with Mongoose)
+- JWT for authentication
+- CORS and Dotenv
 
-- 📫 How to reach me **uttammaurya377@gmail.com**
+---
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1PX85J2p6xDTy48JVCyQFY4BZe6eJUN7e/view?usp=drivesdk](https://drive.google.com/file/d/1PX85J2p6xDTy48JVCyQFY4BZe6eJUN7e/view?usp=drivesdk)
+## 🌟 Features
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/uttam kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="uttam kumar" height="30" width="40" /></a>
-<a href="https://fb.com/uttam maurya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="uttam maurya" height="30" width="40" /></a>
-<a href="https://instagram.com/iamuttam_maurya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iamuttam_maurya" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/uttammaurya01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="uttammaurya01" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/um879t3jf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="um879t3jf" height="30" width="40" /></a>
-</p>
+- 👕 Product listing by category (Men, Women, Kids, etc.)
+- 🔍 Search & filter clothing items
+- 🛒 Add to Cart / Remove from Cart
+- 💳 Checkout and order summary
+- 🔐 User registration & login with JWT auth
+- 🧑 Admin route to manage products (optional)
+- 📱 Fully responsive design (mobile-first)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
+---
+
+## 📁 Folder Structure
+
+modexa/
+├── client/ # React frontend
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ ├── context/
+│ ├── App.js
+│ └── index.js
+├── server/ # Node backend
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ └── server.js
+├── .gitignore
+├── README.md
+└── package.json
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/your-username/modexa.git
+cd modexa
+2️⃣ Set up the server
+bash
+Copy
+Edit
+cd server
+npm install
+touch .env
+# Add the following environment variables:
+# PORT=5000
+# MONGO_URI=your_mongodb_connection_string
+# JWT_SECRET=your_jwt_secret
+npm run dev
+3️⃣ Set up the client
+bash
+Copy
+Edit
+cd ../client
+npm install
+npm start
+📸 Screenshots
+Add screenshots of:
+
+Homepage
+
+Product page
+
+Cart page
+
+Login/Register page
+
+Responsive mobile view
+
+📦 Future Improvements
+Payment integration (Stripe / Razorpay)
+
+Wishlist & save for later
+
+Product ratings and reviews
+
+Admin dashboard for product management
+
+Order history & delivery tracking
+
+📄 License
+MIT License. Feel free to use and modify this project.
+
+👤 Author
+Uttam Kumar
+🔗 GitHub: @uttam9721
+📧 Email: uttam@example.com
+
+markdown
+Copy
+Edit
