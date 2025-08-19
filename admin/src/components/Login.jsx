@@ -11,7 +11,7 @@ const Login = () => {
             // console.log(email,password);
             setEmail("");
             setPassword("");
-            const response = await axios.post(backendUrl+ '/api/user/admin',{email,password})
+             const response = await axios.post(`${backendUrl}/api/user/admin`,{email,password})
             console.log(response);
             
             
@@ -26,7 +26,7 @@ const Login = () => {
         <div className='bg-white shadow-md rounded-lg px-8 py-6 max-w-md'>
       <h1 className='text-2xl font-bold mb-4'>Admin Panel</h1>
       <form onSubmit={onSubmitHandler}>
-        <div mb-3 min-w-72>
+        <div className=' mb-3 min-w-72'>
             <p className='text-sm font-medium text-gray-700 mb-2'>Email Address</p>
             <input onChange={(e)=>setEmail(e.target.value)} value={email} type="email"  className='rounded-md w-full px-3 py-2 border border-gray-300 outline-none' placeholder='your@email.com' required/>
         </div>
@@ -42,4 +42,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

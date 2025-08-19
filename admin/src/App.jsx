@@ -25,7 +25,6 @@ const App = () => {
           {/* Sidebar will always be visible */}
           <Sidebar />
           <div className='w-[70%] mx-auto ml-[max(5vw,25px)] my-8 text-gray text-base'>
-
           <Routes>
             <Route path="/add" element={<h1 className='p-4'>Add Page</h1>} />
             {/* Add more routes here */}
